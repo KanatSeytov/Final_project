@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    background-color: black;
+    height: 15vh;
+}
+
+.content1{
+    background-color: blueviolet;
+    min-height: 130vh;
+    margin-top: 5px;
+}
+
+.footer{
+    margin-top: 5px;
+    background-color: blanchedalmond;
+    height: 20vh;
+}
