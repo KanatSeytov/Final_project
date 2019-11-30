@@ -3,10 +3,31 @@ body{
     padding: 0px;
 }
 
+.header {
+    height: 50px;
+    background-color: #66D9EF;
+    overflow: hidden;
+}
 
-.header{
-    background-color: black;
-    height: 15vh;
+.header a {
+    padding: 1% 2%;
+    float: left;
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover {
+    background-color: #ddd;
+}
+
+.header input {
+  float: right;
+  padding: 0.5%;
+  border: none;
+  margin-top: 1vh;
+  margin-right: 8vw;
+  font-size: 17px;
 }
 
 .content1{
