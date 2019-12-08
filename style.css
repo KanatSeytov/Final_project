@@ -36,6 +36,28 @@ body{
     margin-top: 5px;
 }
 
+.sidenav {
+    height: 130vh;
+    width: 10vw;
+    float: left;
+    
+    background-color: lemonchiffon;
+    padding-top: 20px;
+  }
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
 .footer{
     margin-top: 5px;
     background-color: blanchedalmond;
