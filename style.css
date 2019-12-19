@@ -1,112 +1,161 @@
 body{
-    margin: 0px;
-    padding: 0px;
+	background-color: white;
+	margin: 0px;
 }
 
-.label{
-   height: 30vh;
-   
+#header{
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	line-height: 80px;
+
 }
 
-.content1{
-    background-color: blueviolet;
-    min-height: 130vh;
-}
-
-
-
-.sitebar{
-    background-color: aquamarine;
-    height: 130vh;
-    width: 80px;
-    float: left;
-}
-
-.sidenav {
-    height: 127.3vh;
-    width: 200px;
-    float: left;
-    background-color: lemonchiffon;
-    padding-top: 20px;
-  }
-
-.sidenav a {
-  float: right; 
-  text-decoration: none;
-  font-size: 25px; 
-  color: #818181; 
-  display: block;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.content{
-  background-color:lime;
-  height: 130vh;
-  width: 70.9vw;
-  float: left;
-}
-
-.actions{
-  background-color: aqua;
-  height: 130vh;
-  width: 3vw;
-  float: right;  
+#header a{
+	text-align: center;
 }
 
 
-/* footer */
-
-.footer{
-  margin-top: 5px;
-  background-color: blanchedalmond;
-  height: 20vh;
-}
-
-
-.label{
-  margin-top: 50px;
-  background-image: url("images/clear-bg.jpg"); 
-}
-
-/* Header o site */
-.header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  line-height: 50px;
-	height: 50px;
-	background-color: #FF7E10;
-
-}
-.header a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-.header div{
-  width: 7%;
-  text-align: center;
-}
-
-.header div:hover {
-  background-color: #ddd;
+#header a:hover {
+  color: orange;
  }
 
+#body1{
+	text-align: center;
+}
 
-/* Style the search box inside the navigation bar */
+div .card{
+
+	position: relative;
+	left: 20vw;
+	top:15vh;
+	z-index: 1;
+	width: 35vw;
+	height: 15em;
+	overflow: hidden;
+	background-color: white;
+	border-radius: 20px;
+	background-color:#FFDD00;
+
+}
+
+
+#body2{
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.product{
+	color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 40px;
+    position: relative;
+    border: 1px solid  orange;
+    }
+
+.product .price{
+	color: rgba(0,0,0,0.5);
+      height: 20px;
+      width: 150px;
+      position:absolute; 
+      bottom: 1px;
+      text-align: center;
+      background-color: white;
+    }
+.title, a img{    	
+	color: rgba(0,0,0,0.5);
+    position: absolute;
+    display: inline-flex;
+    color: rgba(0,0,0,0.5);
+}
+
+a img{
+	right: 1px;
+}
+
+
+
+@media  (max-width: 1000px) {
+	#header img{
+		display: none;
+	}
+	#header a{
+		font-size: 40px;
+	}
+
+	.card{
+
+	}
+
+	.product{
+		display: block;
+		font-size: 30px;
+	}
+
+	.product .price{
+		bottom: 70px;
+	}
+
+	.product .title{
+		top: 70px;
+	}
+
+	.feedbacks{
+		height: 5vh;
+		width: 20vw;
+	}
+
+
+	.fb img{
+		display: none;
+	}
+
+	.footer{
+	height: 10vh;
+	}
+
+
+	.production{
+		display: block;
+
+	}
+
+	
+}
+
+
+
+.feedback{
+	text-align: center;
+	background-color: #F6F6F6;
+}
+
+
+
+.feedbacks{
+	background-color: white;
+	width: 15vw;
+	height:20vh;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.marg{
+	margin-top: 3%;
+}
+
 input {
   float: right;
   padding: 5px;
   /*border: none;*/
-  margin-top: 15px;
+  margin-top: 40px;
   margin-right: 15px;
   font-size: 20px;
-  width: 40%;
+  width: 70%;
 
 }
+
