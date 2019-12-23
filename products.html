@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	 <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -27,7 +28,7 @@
         <img src="http://via.placeholder.com/150x150"/>
         <div class="price">10.000 $</div>
         <div class="title"><a style="color: brown;">Bread</a></div>
-        <a href="product.html"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+        <a href="product.html"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" onclick="request()" /></a>
       </div>
       
       <div class="product">
@@ -327,30 +328,20 @@
 
 
 
-<div class="footer" style="height: 25vh; background-image:url(images/footer.jpg); display: flex; justify-content: space-between;">
-	<div class="label">
-    	<input type="text" placeholder="Search...">
-    	
-    </div>
+<div class="footer" style="height: 25vh; background-image:url(images/footer.jpg); display: flex; justify-content: space-around;align-content: center;">
+  
 
-    <div style="line-height: 80px"><h1>Our contacts: </h1></div>
-	<div style="height: 100%; width: 200px; text-align: center;display: block;">
-		</br>
-		<div> <img src="images/compass.jpg" width="40px" height="40px"></div></br>
-		<div> <img src="images/instagram.jpg" width="40px" height="40px"></div></br>
-		<div><img src="images/telegram.jpg" width="40px" height="40px"></div>
-
-	</div>
-	<div style="height: 100%; width: 200px; text-align: center;display: block;">
-		</br>
-		<div> <img src="images/fire.jpg" width="40px" height="40px"></div></br>
-		<div> <img src="images/like.jpg" width="40px" height="40px"></div></br>
-		<div><img src="images/sms.jpg" width="40px" height="40px"></div>
-		
-	</div>
-
-
-
+    <div style="display: flex; align-items: center;"><h1>Our contacts: </h1></div>
+  <div style="width: 700px; text-align: center;display: flex; justify-content: space-around; align-items:center; ">
+    </br>
+    <div> <img src="images/compass.jpg" width="40px" height="40px"></div></br>
+    <div> <img src="images/instagram.jpg" width="40px" height="40px"></div></br>
+    <div><img src="images/telegram.jpg" width="40px" height="40px"></div>
+    <div> <img src="images/fire.jpg" width="40px" height="40px"></div></br>
+    <div> <img src="images/like.jpg" width="40px" height="40px"></div></br>
+    <div><img src="images/sms.jpg" width="40px" height="40px"></div>
+  </div>
+    
 
 </div>
 
